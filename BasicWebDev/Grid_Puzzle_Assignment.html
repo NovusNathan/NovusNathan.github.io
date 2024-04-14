@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Nathan Melstrand">
+        <title>Grid Puzzle Assignment</title>
+    </head>
+<div style="background-color:LightGray">
+	      
+		   <style>
+				section.grid-container {
+				display: grid;
+				align: center;
+				place-content: center;
+									   }
+				.grid-container div {
+				background-color: orange;
+				border: 1px solid rgba(0, 0, 0, 0.8);
+				padding: 10px 0;
+				font-size: 20px;
+				text-align: center;
+				
+				                   }
+				.grid-container {
+				display: grid;
+				grid-template-columns: auto auto auto;
+				grid-template-rows: auto auto;
+				grid-auto-flow: column dense;
+				height: 150px;
+				padding: 10px;
+				background-color: Gray;
+								}
+
+
+			</style>
+			<style> 
+				.item1 {
+				width: 1500px;
+				grid-column-start: 1;
+				grid-column-end: span 2;
+				
+						}
+				.item2 {
+				grid-row-start: 2;
+				grid-row-end: 2;
+				
+						}
+				.item3 {
+				grid-row-start: 2;
+				grid-row-end: 2;
+				
+						}
+				.item4 {
+				grid-column-start: 1;
+				grid-column-end: span 2; 
+				grid-row-start: 3;
+				grid-row-end: 3;				
+						}
+			</style>
+			<style>
+				section.flexcon {
+				height:700px;
+				width: 900px;
+				display: flex;
+				flex-direction: column;
+				align: center;
+				place-content: center;
+				margin: auto;
+									}
+			    {
+				align: center;
+				}
+		
+</style>
+	<section class="grid-container">
+		<div class="item1">Nathan Melstrand</div>
+		<div class="item2">Puzzle Choice: Fishies</div>
+		<div class="item3">Completed April 14, 2024</div>
+		<div class="item4">Web Design</div>
+	</section>
+	
+	<section class = "flexcon">
+		<div><img src="images/Done.jpg"></div>
+		<div style = "display:none;">><img src="images/puzzle3_H.jpg" alt= "hidden image"></div>
+	</section>
+
+
+
+		   
+				
+
+
+</div>
+<div style = "display:none;"><img src="images/puzzle3_H.jpg"></div>
