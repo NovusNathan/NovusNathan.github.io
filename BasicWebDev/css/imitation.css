@@ -98,7 +98,7 @@
 			 
 			 display: block;
 			 margin-left: auto;
-             margin-right: auto;
+                         margin-right: auto;
 			 -webkit-filter: ;
 			 filter: ;
 			 }
@@ -127,7 +127,7 @@
 			 height: 230px;
 			 display: block;
 			 margin-left: auto;
-             margin-right: auto;
+                         margin-right: auto;
 			 
 			 -webkit-filter: drop-shadow(10px 10px 10px #000000);
 			 filter: drop-shadow(10px 10px 10px #000000);
