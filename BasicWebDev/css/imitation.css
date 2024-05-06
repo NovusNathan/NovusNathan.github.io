@@ -73,9 +73,10 @@
 			 height: 250px;
 			 display: block;
 			 margin-left: auto;
-             margin-right: auto;
+             		 margin-right: auto;
 			 -webkit-filter: sepia(100%);
 			 filter: sepia(100%);
+			 border-radius: 100px 100px 100px 100px	;
 			 }
 			 
 		img.css2  {
@@ -85,7 +86,7 @@
 			 background-image: 
 			 display: block;
 			 margin-left: auto;
-             margin-right: auto;
+            		 margin-right: auto;
 			 -webkit-filter: grayscale(100%);
 			 filter: grayscale(100%);
 			 }
