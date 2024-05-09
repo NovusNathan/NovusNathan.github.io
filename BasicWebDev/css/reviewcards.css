@@ -1,0 +1,532 @@
+/* Review Card Assignment*/
+
+
+body {
+	background-color: lightgrey;
+     }
+
+  @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.one {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+    background-color: gray;
+    border: 2px silver;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.oneB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-left: 750px;
+    background-color: gray;
+    border: 2px silver;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+   
+   /* Two*/
+   
+    @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.two {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 100px;
+    background-color: SlateBlue;
+    border: 2px DodgerBlue;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.twoB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 100px;
+	margin-left: 750px;
+    background-color: SlateBlue;
+    border: 2px DodgerBlue;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+   
+   /*Three*/
+     @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.three {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 200px;
+    background-color: LightSalmon;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.threeB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 200px;
+	margin-left: 750px;
+    background-color: LightSalmon;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+
+ /*Four*/
+     @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.four {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 300px;
+    background-color: PaleVioletRed;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 9s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.fourB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 300px;
+	margin-left: 750px;
+    background-color: PaleVioletRed;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 9s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+
+/*Five*/
+
+     @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.five {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 400px;
+    background-color: Orange;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 12s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.fiveB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 400px;
+	margin-left: 750px;
+    background-color: Orange;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 12s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+   
+   /*Six*/
+   
+     @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.six {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 500px;
+    background-color: gold;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 15s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.sixB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 500px;
+	margin-left: 750px;
+    background-color: gold;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 15s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+   
+    /*Seven*/
+	
+     @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.seven {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 600px;
+    background-color: PaleGreen;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 18s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.sevenB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 600px;
+	margin-left: 750px;
+    background-color: PaleGreen;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 18s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+   
+    /*Eight*/
+	
+     @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    to {
+      transform: rotate(360deg);
+      left: 750px;
+	  opacity: 0;
+       }
+	}
+  section {
+     position: relative;
+  }
+  section div.eight {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 700px;
+    background-color: LightSteelBlue;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 5s;
+    animation-delay: 21s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+     100% { opacity: 1; }
+	   -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+       -o-animation: fadeIn 5s;
+       -ms-animation: fadeIn 5s;
+      }
+
+   section {
+     position: relative;
+  }
+   section div.eightB {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+	margin-top: 700px;
+	margin-left: 750px;
+    background-color: LightSteelBlue;
+    border: 2px black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-delay: 21s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinte;
+   }
+
+
+
+
+
+
+ 
+		   
+		
+				
+					
+	
